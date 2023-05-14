@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Realtime Drawing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div><h2>Google Lens</h2>
+<img id="GL" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-06-512.png">
+</div>
+<h3>VS</h3>
+<img id="MN" src="https://cdn-icons-png.flaticon.com/512/1583/1583629.png">
+<h2> Mobile Net</h2>
+<hr></hr>
+<h3>Test 1 - Spectacles</h3>
+<img src="specs.jpg" id="specs">
+<br>
+<br>
+<p>The above picture is that of spectacles which was identified by both MobileNet and Google Lens Correctly </p>
+    <br>
+    <br>
+    <br>
+<h3>Test 2 - Alarm Clock</h3>
+<img src="Clock.jpg" id="clock">
+<br>
+<br>
+<p>The above picture is that of an alarm clock which was identified by MobileNet as a Wall Clock and Google Lens as an Alarm clock. Thus, in this case, Google Lens is more accurate </p>
+    <br>
+    <br>
+    <br>
+
+    <h3>Test 3 - Rubix Cube</h3>
+<img src="Cube.jpg" id="cube">
+<br>
+<br>
+<p>The above picture is that of a rubix cube which was identified by MobileNet as a gas mask and Google Lens as a rubics cube. Thus, in this case, Google Lens is more accurate </p>
+    <br>
+    <br>
+    <br>
+<h3> Observations</h3>
+<table>
+    <tr>
+      <th>Test</th>
+      <th>MobileNet</th>
+      <th>Google Lens</th>
+    </tr>
+    <tr>
+      <td>Test 1</td>
+      <td>Object Identified</td>
+      <td>Object Identified</td>
+    </tr>
+    <tr>
+        <td>Test 2</td>
+        <td>Object Could Not be Identified</td>
+        <td>Object Identified</td>
+    </tr>
+    <td>Test 3</td>
+        <td>Object Could Not be Identified</td>
+        <td>Object Identified</td>
+  </table>
+  <hr>
+
+  <h3> From the Above Observations we see that Google Lens is more Accurate</h3>
+  <br>
+  <br>
+  <div class="footer">Developed by Spanditta</div>
+</body>
+</html>

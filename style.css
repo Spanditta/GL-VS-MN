@@ -1,0 +1,58 @@
+body{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url()
+}
+#GL{
+    height: 100px;
+    width: 100px;
+}
+#MN{
+    height: 100px;
+    width: 100px;
+}
+#specs{
+    height: 400px;
+    width: 800px;
+}
+
+#clock{
+    height: 400px;
+    width: 800px;
+}
+
+#cube{
+    height: 400px;
+    width: 800px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .footer{
+    position:fixed;
+    background-color:aquamarine;
+    color:darkmagenta;
+    text-align:center;
+    width: 100%;
+    bottom:0;
+}
